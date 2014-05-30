@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723871EB1938AA6900C21D00 /* ZHD_Controller_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 723871EA1938AA6900C21D00 /* ZHD_Controller_DetailViewController.m */; };
 		729D5B26193738F400B3B380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D5B25193738F400B3B380 /* Foundation.framework */; };
 		729D5B28193738F400B3B380 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D5B27193738F400B3B380 /* CoreGraphics.framework */; };
 		729D5B2A193738F400B3B380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D5B29193738F400B3B380 /* UIKit.framework */; };
 		729D5B30193738F400B3B380 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 729D5B2E193738F400B3B380 /* InfoPlist.strings */; };
 		729D5B32193738F400B3B380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D5B31193738F400B3B380 /* main.m */; };
 		729D5B36193738F400B3B380 /* ZHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D5B35193738F400B3B380 /* ZHDAppDelegate.m */; };
-		729D5B39193738F400B3B380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729D5B37193738F400B3B380 /* Main.storyboard */; };
-		729D5B3C193738F400B3B380 /* ZHDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D5B3B193738F400B3B380 /* ZHDViewController.m */; };
 		729D5B3E193738F400B3B380 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729D5B3D193738F400B3B380 /* Images.xcassets */; };
 		729D5B45193738F400B3B380 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D5B44193738F400B3B380 /* XCTest.framework */; };
 		729D5B46193738F400B3B380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D5B25193738F400B3B380 /* Foundation.framework */; };
 		729D5B47193738F400B3B380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D5B29193738F400B3B380 /* UIKit.framework */; };
 		729D5B4F193738F400B3B380 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 729D5B4D193738F400B3B380 /* InfoPlist.strings */; };
 		729D5B51193738F400B3B380 /* ZhihuDailyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D5B50193738F400B3B380 /* ZhihuDailyTests.m */; };
+		72E9DDE019381BDC005FF6F8 /* ZHD_GlobalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDDF19381BDC005FF6F8 /* ZHD_GlobalClass.m */; };
+		72E9DDE319383A00005FF6F8 /* ZHD_Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDE219383A00005FF6F8 /* ZHD_Client.m */; };
+		72E9DDE719384A34005FF6F8 /* ZHD_Entity_TopStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDE619384A34005FF6F8 /* ZHD_Entity_TopStory.m */; };
+		72E9DDEA19385071005FF6F8 /* ZHD_Entity_Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDE919385071005FF6F8 /* ZHD_Entity_Story.m */; };
+		72E9DDED19385C72005FF6F8 /* ZHD_Entity_StoryDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDEC19385C72005FF6F8 /* ZHD_Entity_StoryDetail.m */; };
+		72E9DDF119386656005FF6F8 /* ZHD_Controller_TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDF019386656005FF6F8 /* ZHD_Controller_TopicViewController.m */; };
+		72E9DDF7193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDF6193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.m */; };
+		72E9DDFA193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDF9193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.m */; };
+		72E9DDFD1938671D005FF6F8 /* ZHDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDFC1938671D005FF6F8 /* ZHDViewController.m */; };
+		72E9DE0019386A30005FF6F8 /* CheckNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DDFF19386A30005FF6F8 /* CheckNetwork.m */; };
+		72E9DE04193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DE03193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.m */; };
+		72E9DE0719388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DE0619388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.m */; };
+		72E9DE0A1938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DE091938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.m */; };
+		72E9DE0C19389369005FF6F8 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E9DE0B19389369005FF6F8 /* Reveal.framework */; };
+		993CB9D62C75407398EF34D6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF3CFA93BD4000B2400F49 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DEF3CFA93BD4000B2400F49 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC816910474A8EB05B718B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		723871E91938AA6900C21D00 /* ZHD_Controller_DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Controller_DetailViewController.h; path = Controller/ZHD_Controller_DetailViewController.h; sourceTree = "<group>"; };
+		723871EA1938AA6900C21D00 /* ZHD_Controller_DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Controller_DetailViewController.m; path = Controller/ZHD_Controller_DetailViewController.m; sourceTree = "<group>"; };
 		729D5B22193738F400B3B380 /* ZhihuDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhihuDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D5B25193738F400B3B380 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		729D5B27193738F400B3B380 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +62,39 @@
 		729D5B33193738F400B3B380 /* ZhihuDaily-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhihuDaily-Prefix.pch"; sourceTree = "<group>"; };
 		729D5B34193738F400B3B380 /* ZHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHDAppDelegate.h; sourceTree = "<group>"; };
 		729D5B35193738F400B3B380 /* ZHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHDAppDelegate.m; sourceTree = "<group>"; };
-		729D5B38193738F400B3B380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		729D5B3A193738F400B3B380 /* ZHDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHDViewController.h; sourceTree = "<group>"; };
-		729D5B3B193738F400B3B380 /* ZHDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHDViewController.m; sourceTree = "<group>"; };
 		729D5B3D193738F400B3B380 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		729D5B43193738F400B3B380 /* ZhihuDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhihuDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D5B44193738F400B3B380 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		729D5B4C193738F400B3B380 /* ZhihuDailyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZhihuDailyTests-Info.plist"; sourceTree = "<group>"; };
 		729D5B4E193738F400B3B380 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		729D5B50193738F400B3B380 /* ZhihuDailyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhihuDailyTests.m; sourceTree = "<group>"; };
+		72E9DDDE19381BDC005FF6F8 /* ZHD_GlobalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_GlobalClass.h; path = Global/ZHD_GlobalClass.h; sourceTree = "<group>"; };
+		72E9DDDF19381BDC005FF6F8 /* ZHD_GlobalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_GlobalClass.m; path = Global/ZHD_GlobalClass.m; sourceTree = "<group>"; };
+		72E9DDE119383A00005FF6F8 /* ZHD_Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Client.h; path = Global/ZHD_Client.h; sourceTree = "<group>"; };
+		72E9DDE219383A00005FF6F8 /* ZHD_Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Client.m; path = Global/ZHD_Client.m; sourceTree = "<group>"; };
+		72E9DDE519384A34005FF6F8 /* ZHD_Entity_TopStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Entity_TopStory.h; path = Entity/ZHD_Entity_TopStory.h; sourceTree = "<group>"; };
+		72E9DDE619384A34005FF6F8 /* ZHD_Entity_TopStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Entity_TopStory.m; path = Entity/ZHD_Entity_TopStory.m; sourceTree = "<group>"; };
+		72E9DDE819385071005FF6F8 /* ZHD_Entity_Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Entity_Story.h; path = Entity/ZHD_Entity_Story.h; sourceTree = "<group>"; };
+		72E9DDE919385071005FF6F8 /* ZHD_Entity_Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Entity_Story.m; path = Entity/ZHD_Entity_Story.m; sourceTree = "<group>"; };
+		72E9DDEB19385C72005FF6F8 /* ZHD_Entity_StoryDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Entity_StoryDetail.h; path = Entity/ZHD_Entity_StoryDetail.h; sourceTree = "<group>"; };
+		72E9DDEC19385C72005FF6F8 /* ZHD_Entity_StoryDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Entity_StoryDetail.m; path = Entity/ZHD_Entity_StoryDetail.m; sourceTree = "<group>"; };
+		72E9DDEF19386656005FF6F8 /* ZHD_Controller_TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Controller_TopicViewController.h; path = Controller/ZHD_Controller_TopicViewController.h; sourceTree = "<group>"; };
+		72E9DDF019386656005FF6F8 /* ZHD_Controller_TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Controller_TopicViewController.m; path = Controller/ZHD_Controller_TopicViewController.m; sourceTree = "<group>"; };
+		72E9DDF5193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Controller_MyCollectionViewController.h; path = Controller/ZHD_Controller_MyCollectionViewController.h; sourceTree = "<group>"; };
+		72E9DDF6193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Controller_MyCollectionViewController.m; path = Controller/ZHD_Controller_MyCollectionViewController.m; sourceTree = "<group>"; };
+		72E9DDF8193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_Controller_SettingsViewController.h; path = Controller/ZHD_Controller_SettingsViewController.h; sourceTree = "<group>"; };
+		72E9DDF9193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_Controller_SettingsViewController.m; path = Controller/ZHD_Controller_SettingsViewController.m; sourceTree = "<group>"; };
+		72E9DDFB1938671D005FF6F8 /* ZHDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHDViewController.h; path = Controller/ZHDViewController.h; sourceTree = "<group>"; };
+		72E9DDFC1938671D005FF6F8 /* ZHDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHDViewController.m; path = Controller/ZHDViewController.m; sourceTree = "<group>"; };
+		72E9DDFE19386A30005FF6F8 /* CheckNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckNetwork.h; sourceTree = "<group>"; };
+		72E9DDFF19386A30005FF6F8 /* CheckNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckNetwork.m; sourceTree = "<group>"; };
+		72E9DE02193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_View_ZHDViewController_TableView_HeaderView.h; path = View/ZHD_View_ZHDViewController_TableView_HeaderView.h; sourceTree = "<group>"; };
+		72E9DE03193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_View_ZHDViewController_TableView_HeaderView.m; path = View/ZHD_View_ZHDViewController_TableView_HeaderView.m; sourceTree = "<group>"; };
+		72E9DE0519388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_View_ZHDViewController_SingleView.h; path = View/ZHD_View_ZHDViewController_SingleView.h; sourceTree = "<group>"; };
+		72E9DE0619388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_View_ZHDViewController_SingleView.m; path = View/ZHD_View_ZHDViewController_SingleView.m; sourceTree = "<group>"; };
+		72E9DE081938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHD_View_ViewController_TableViewCell.h; path = View/ZHD_View_ViewController_TableViewCell.h; sourceTree = "<group>"; };
+		72E9DE091938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHD_View_ViewController_TableViewCell.m; path = View/ZHD_View_ViewController_TableViewCell.m; sourceTree = "<group>"; };
+		72E9DE0B19389369005FF6F8 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +104,9 @@
 			files = (
 				729D5B28193738F400B3B380 /* CoreGraphics.framework in Frameworks */,
 				729D5B2A193738F400B3B380 /* UIKit.framework in Frameworks */,
+				72E9DE0C19389369005FF6F8 /* Reveal.framework in Frameworks */,
 				729D5B26193738F400B3B380 /* Foundation.framework in Frameworks */,
+				993CB9D62C75407398EF34D6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +130,7 @@
 				729D5B4A193738F400B3B380 /* ZhihuDailyTests */,
 				729D5B24193738F400B3B380 /* Frameworks */,
 				729D5B23193738F400B3B380 /* Products */,
+				42FC816910474A8EB05B718B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +146,12 @@
 		729D5B24193738F400B3B380 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72E9DE0B19389369005FF6F8 /* Reveal.framework */,
 				729D5B25193738F400B3B380 /* Foundation.framework */,
 				729D5B27193738F400B3B380 /* CoreGraphics.framework */,
 				729D5B29193738F400B3B380 /* UIKit.framework */,
 				729D5B44193738F400B3B380 /* XCTest.framework */,
+				3DEF3CFA93BD4000B2400F49 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +159,10 @@
 		729D5B2B193738F400B3B380 /* ZhihuDaily */ = {
 			isa = PBXGroup;
 			children = (
-				729D5B34193738F400B3B380 /* ZHDAppDelegate.h */,
-				729D5B35193738F400B3B380 /* ZHDAppDelegate.m */,
-				729D5B37193738F400B3B380 /* Main.storyboard */,
-				729D5B3A193738F400B3B380 /* ZHDViewController.h */,
-				729D5B3B193738F400B3B380 /* ZHDViewController.m */,
+				72E9DE0119388703005FF6F8 /* View */,
+				72E9DDEE193864B6005FF6F8 /* Controller */,
+				72E9DDE4193849D7005FF6F8 /* Entity */,
+				72E9DDDD19381BA3005FF6F8 /* Global */,
 				729D5B3D193738F400B3B380 /* Images.xcassets */,
 				729D5B2C193738F400B3B380 /* Supporting Files */,
 			);
@@ -126,6 +172,8 @@
 		729D5B2C193738F400B3B380 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				729D5B34193738F400B3B380 /* ZHDAppDelegate.h */,
+				729D5B35193738F400B3B380 /* ZHDAppDelegate.m */,
 				729D5B2D193738F400B3B380 /* ZhihuDaily-Info.plist */,
 				729D5B2E193738F400B3B380 /* InfoPlist.strings */,
 				729D5B31193738F400B3B380 /* main.m */,
@@ -152,6 +200,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		72E9DDDD19381BA3005FF6F8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				72E9DDFE19386A30005FF6F8 /* CheckNetwork.h */,
+				72E9DDFF19386A30005FF6F8 /* CheckNetwork.m */,
+				72E9DDDE19381BDC005FF6F8 /* ZHD_GlobalClass.h */,
+				72E9DDDF19381BDC005FF6F8 /* ZHD_GlobalClass.m */,
+				72E9DDE119383A00005FF6F8 /* ZHD_Client.h */,
+				72E9DDE219383A00005FF6F8 /* ZHD_Client.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		72E9DDE4193849D7005FF6F8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				72E9DDE519384A34005FF6F8 /* ZHD_Entity_TopStory.h */,
+				72E9DDE619384A34005FF6F8 /* ZHD_Entity_TopStory.m */,
+				72E9DDE819385071005FF6F8 /* ZHD_Entity_Story.h */,
+				72E9DDE919385071005FF6F8 /* ZHD_Entity_Story.m */,
+				72E9DDEB19385C72005FF6F8 /* ZHD_Entity_StoryDetail.h */,
+				72E9DDEC19385C72005FF6F8 /* ZHD_Entity_StoryDetail.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		72E9DDEE193864B6005FF6F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72E9DDFB1938671D005FF6F8 /* ZHDViewController.h */,
+				72E9DDFC1938671D005FF6F8 /* ZHDViewController.m */,
+				72E9DDEF19386656005FF6F8 /* ZHD_Controller_TopicViewController.h */,
+				72E9DDF019386656005FF6F8 /* ZHD_Controller_TopicViewController.m */,
+				72E9DDF5193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.h */,
+				72E9DDF6193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.m */,
+				72E9DDF8193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.h */,
+				72E9DDF9193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.m */,
+				723871E91938AA6900C21D00 /* ZHD_Controller_DetailViewController.h */,
+				723871EA1938AA6900C21D00 /* ZHD_Controller_DetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		72E9DE0119388703005FF6F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72E9DE02193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.h */,
+				72E9DE03193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.m */,
+				72E9DE0519388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.h */,
+				72E9DE0619388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.m */,
+				72E9DE081938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.h */,
+				72E9DE091938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729D5B54193738F400B3B380 /* Build configuration list for PBXNativeTarget "ZhihuDaily" */;
 			buildPhases = (
+				BA604F2A7A6D4E1092AE73AA /* Check Pods Manifest.lock */,
 				729D5B1E193738F400B3B380 /* Sources */,
 				729D5B1F193738F400B3B380 /* Frameworks */,
 				729D5B20193738F400B3B380 /* Resources */,
+				82A531292E61407CAD2B1694 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +306,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = jxdwinter;
 				TargetAttributes = {
+					729D5B21193738F400B3B380 = {
+						DevelopmentTeam = LRW83L7QAK;
+					};
 					729D5B42193738F400B3B380 = {
 						TestTargetID = 729D5B21193738F400B3B380;
 					};
@@ -231,7 +340,6 @@
 			files = (
 				729D5B3E193738F400B3B380 /* Images.xcassets in Resources */,
 				729D5B30193738F400B3B380 /* InfoPlist.strings in Resources */,
-				729D5B39193738F400B3B380 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +353,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82A531292E61407CAD2B1694 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA604F2A7A6D4E1092AE73AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		729D5B1E193738F400B3B380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E9DDED19385C72005FF6F8 /* ZHD_Entity_StoryDetail.m in Sources */,
+				72E9DDFA193866F5005FF6F8 /* ZHD_Controller_SettingsViewController.m in Sources */,
+				72E9DDE019381BDC005FF6F8 /* ZHD_GlobalClass.m in Sources */,
+				72E9DDFD1938671D005FF6F8 /* ZHDViewController.m in Sources */,
 				729D5B32193738F400B3B380 /* main.m in Sources */,
+				72E9DE04193887EE005FF6F8 /* ZHD_View_ZHDViewController_TableView_HeaderView.m in Sources */,
+				72E9DE0A1938918B005FF6F8 /* ZHD_View_ViewController_TableViewCell.m in Sources */,
+				72E9DE0019386A30005FF6F8 /* CheckNetwork.m in Sources */,
+				72E9DDEA19385071005FF6F8 /* ZHD_Entity_Story.m in Sources */,
 				729D5B36193738F400B3B380 /* ZHDAppDelegate.m in Sources */,
-				729D5B3C193738F400B3B380 /* ZHDViewController.m in Sources */,
+				723871EB1938AA6900C21D00 /* ZHD_Controller_DetailViewController.m in Sources */,
+				72E9DDE319383A00005FF6F8 /* ZHD_Client.m in Sources */,
+				72E9DE0719388A64005FF6F8 /* ZHD_View_ZHDViewController_SingleView.m in Sources */,
+				72E9DDF119386656005FF6F8 /* ZHD_Controller_TopicViewController.m in Sources */,
+				72E9DDE719384A34005FF6F8 /* ZHD_Entity_TopStory.m in Sources */,
+				72E9DDF7193866D9005FF6F8 /* ZHD_Controller_MyCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +435,6 @@
 				729D5B2F193738F400B3B380 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		729D5B37193738F400B3B380 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				729D5B38193738F400B3B380 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		729D5B4D193738F400B3B380 /* InfoPlist.strings */ = {
@@ -336,6 +482,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -374,9 +525,15 @@
 		};
 		729D5B55193738F400B3B380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FC816910474A8EB05B718B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZhihuDaily/ZhihuDaily-Prefix.pch";
 				INFOPLIST_FILE = "ZhihuDaily/ZhihuDaily-Info.plist";
@@ -387,9 +544,15 @@
 		};
 		729D5B56193738F400B3B380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FC816910474A8EB05B718B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZhihuDaily/ZhihuDaily-Prefix.pch";
 				INFOPLIST_FILE = "ZhihuDaily/ZhihuDaily-Info.plist";
@@ -457,6 +620,7 @@
 				729D5B56193738F400B3B380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		729D5B57193738F400B3B380 /* Build configuration list for PBXNativeTarget "ZhihuDailyTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +629,7 @@
 				729D5B59193738F400B3B380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
